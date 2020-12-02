@@ -826,6 +826,20 @@ const vectors: Array<TestVector> = [
       { text: '3PAP3wkgbGjdd1FuBLn9ajXvo6edBMCa115', hex: '01575cb3839cef68f8b5650461fe707311e2919c73b945cf1edc'},
     ],
   },
+  {
+    name: 'WAXP',
+    coinType: 9999999,
+    passingVectors: [
+      {
+        text: 'EOS6rjGKGYPBmVGsDDFAbM6UT5wQ9szB9m2fEcqHFMMcPge983xz9',
+        hex: '03036542e3c53dfaff618a0b270b5c9654e983853e0607f729820d6d02bbc19f2b',
+      },
+      {
+        text: 'EOS7wTCoctybwrQWuE2tWYGwdLEGRXE9rrzALeBLUhWfbHXysFr9W',
+        hex: '0391d0e60dbde0ac9a824e847d3405a1ddfe00d430bdd07c77ea86f8e834c96536',
+      },
+    ],
+  },
 ];
 
 var lastCointype = -1;

@@ -103,6 +103,7 @@ This library currently supports the following cryptocurrencies and address forma
  - VET (checksummed-hex)
  - VLX (base58, no check)
  - WAVES (base58)
+ - WAXP (base58, no check + ripemd160-checksum)
  - WICC (base58check P2PKH and P2SH)
  - XDAI (checksummed-hex)
  - XHV (base58xmr)
